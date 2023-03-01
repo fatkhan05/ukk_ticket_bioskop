@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Project Arjuna21
+## About Project Cinema21
 
-Project Arjuna21 adalah project pengembangan aplikasi berbasis web yang bertujuan untuk memudahkan para calon pembeli tiket bioskop membeli dan mengelola tiket. Selain itu dalam aplikasi arjun21 ada user admin yang dapat mengelola aliran data dari custumernya.
+Project Cinema21 adalah project pengembangan aplikasi berbasis web yang bertujuan untuk memudahkan para calon pembeli tiket bioskop membeli dan mengelola tiket. Selain itu dalam aplikasi Cinema21 ada user admin yang dapat mengelola aliran data dari custumernya.
 
 ## Sites
 url <a href="http://arjuna-mc.site/">http://arjuna-mc.site/</a>
@@ -18,12 +18,8 @@ url <a href="http://arjuna-mc.site/">http://arjuna-mc.site/</a>
     demo: Member
      <ul>
     
-    - username : member@arjuna-mc.site
+    - username : member@fatkhan.com
     - password : password
-    </ul>
-        
-        
-    </li>
 </ul>
 ## Extension
 
@@ -38,12 +34,5 @@ url <a href="http://arjuna-mc.site/">http://arjuna-mc.site/</a>
 -  "nesbot/carbon": "^2.64",
 -  "simplesoftwareio/simple-qrcode": "~4"
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-- hapidzfadli@gmail.com
-- https://github.com/arilfajri
-- https://github.com/Nabilfadilah
-- https://github.com/hasbulahshopari
 
