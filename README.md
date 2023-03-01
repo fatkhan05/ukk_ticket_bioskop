@@ -20,10 +20,14 @@ url <a href="http://arjuna-mc.site/">http://arjuna-mc.site/</a>
     
     - username : member@fatkhan.com
     - password : password
+    
+    </li>
+    
+    </ul>
 </ul>
 ## Extension
 
-- "php": "^8.0.2",
+- "php": "^8.1.15",
 - "barryvdh/laravel-dompdf": "^2.0",
 - "fakerphp/faker": "^1.21",
 - "guzzlehttp/guzzle": "^7.2",
