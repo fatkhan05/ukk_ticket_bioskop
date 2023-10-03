@@ -6,6 +6,13 @@
             <div class="col-lg-8">
                 <form action="/pay" method="POST" id="form-bayar">
                     @csrf
+
+                    @if(session('error'))
+                    <div class="alert alert-danger">
+                        {{session('error')}}
+                    </div>
+                @endif
+
                     <div class="input-group mb-3">
                         <label for="cities" class="input-group-prepend">
                           <span class="input-group-text rounded-0" id="basic-addon1"><i class="bi bi-geo-alt"></i></span>

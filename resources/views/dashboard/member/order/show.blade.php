@@ -18,7 +18,7 @@
                         <p class="text-muted mb-0">fatkhanakbar46@gmail.com</p>
                     </div>
                 </div>
-                <p class="text-muted mb-0 col mt-2">Dsn Josari, Salamrejo, Kec. Karanga, Kota Trenggalek, Jawa Timur 66361</p>
+                <p class="text-muted mb-0 col mt-2">Dsn Josari, Salamrejo, Kec. Karangan, Kota Trenggalek, Jawa Timur 66361</p>
             </div>
 
             <div class="d-flex row invoice mt-3 justify-content-between purple-gradient color-block z-depth-1">
