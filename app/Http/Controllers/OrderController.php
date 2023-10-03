@@ -8,6 +8,7 @@ use App\Models\Seat;
 use App\Models\User;
 use App\Services\Midtrans\CreateSnapTokenService;
 use Illuminate\Http\Request;
+// use Illuminate\Auth;
 use Faker\Factory as Faker;
 use Illuminate\Support\Facades\DB;
 
@@ -42,6 +43,22 @@ class OrderController extends Controller
 
     public function insertData(Request $request)
     {
+        // dd($request->all());
+        $order = Order::join('seats', 'seats.order_id', '=', 'orders.order_id')
+        ->where('orders.user_id', auth()->user()->id)
+        ->where('orders.id_movie', $request->id_movie)
+        ->select('seats.no_seat')
+        ->get();
+        // return response()->json($order);
+        foreach ($order as $seat){
+            for ($i=0; $i < count($request->seat); $i++){
+                if ($seat->no_seat == $request->seat[$i]){
+                    // dd($request->seat[$i]);
+                    return back()->with('error', 'Kursi' . $request->seat[$i] . 'Telah Dipesan');
+                }
+            }
+        }
+
         $request['user_id'] = auth()->user()->id;
         $faker = Faker::create('id_ID');
         $order_id = $faker->bothify('?????-#####');
