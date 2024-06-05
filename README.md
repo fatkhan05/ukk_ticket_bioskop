@@ -14,17 +14,15 @@ Project Cinema21 adalah project pengembangan aplikasi berbasis web yang bertujua
 ## Sites
 
 <ul>
-    <li>
+<!--     <li>
     demo: Member
      <ul>
-    
-    - username : member@arjuna-mc.site
-    - password : password
-    </ul>
-        
-        
-    </li>
+        - username : member@arjuna-mc.site
+        - password : password
+    </ul> -->
+    -
 </ul>
+
 ## Extension
 
 - "php": "^8.0.2",
