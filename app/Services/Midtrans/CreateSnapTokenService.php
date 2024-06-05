@@ -32,7 +32,7 @@ class CreateSnapTokenService extends Midtrans
                     'quantity' => 1,
                     'name' => $this->order->movie,
                     'price' => $this->order->total_price,
-                    'brand' => 'Arjuna21',
+                    'brand' => 'Cinema21',
                     'category' => $this->order->type,
                     'merchant_name' => 'Ticket Bioskop',
                 ]

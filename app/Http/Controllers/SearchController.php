@@ -15,7 +15,7 @@ class SearchController extends Controller
             return false !== stristr($item['title'], $title);
         });
         return view('page.search', [
-            "title" => "Arjuna 21",
+            "title" => "Cinema 21",
             'posts' => $posts,
             "active" => 'search'
         ]);
