@@ -15,12 +15,12 @@ Project Cinema21 adalah project pengembangan aplikasi berbasis web yang bertujua
 
 <ul>
     <li>
-<!--     demo: Member
+    demo: Member
      <ul>
     
     - username : member@arjuna-mc.site
     - password : password
-    </ul> -->
+    </ul>
         
         
     </li>
@@ -85,3 +85,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
+Source : https://github.com/Hapidzfadli
